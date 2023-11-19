@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+
+class LoginWidget extends StatefulWidget {
+  const LoginWidget({super.key});
+
+  @override
+  State<LoginWidget> createState() => _LoginWidgetState();
+}
+
+class _LoginWidgetState extends State<LoginWidget> {
+  @override
+  Widget build(BuildContext context) {
+    return  Padding(
+      padding: EdgeInsets.all(10.0),
+      child: Column(
+        children: [
+          Text("Login")
+        ],
+      ),
+    );
+  }
+}
